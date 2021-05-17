@@ -1,0 +1,25 @@
+/* scale down for smaller screenwidth */
+@media screen and (max-width: 600px){
+
+
+
+.menutable{
+	
+	
+}
+
+.menutable tr{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.menutable td{
+	padding-left: 0px;
+	padding-right:0px;
+}
+ .footertable{
+ 	padding-left: 10%;
+ }
+
+
+}

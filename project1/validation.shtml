@@ -1,0 +1,36 @@
+<!--about.shtml-->
+<!DOCTYPE html>
+<html lang = "en-US">
+	
+	<head>
+	<title>csci 344 first</title>
+		<link rel="stylesheet"  href="css/main.css">
+		<link rel="stylesheet"  href="css/normalize.css">
+		<link rel="stylesheet"  href="css/900px.css">
+		<meta charset= "UTF-8">
+		
+	</head>
+	
+	<body class = "bg1">
+	
+	<!--#include virtual = "common/header.html" -->
+		
+	<h1 class = "title">Validation</h1>
+	<div class = "aboutbox">
+	
+		<h2 class = "title">Index Validation</h2>
+		<img class="pics" alt="index validation image" src="images/indexval">
+		<h2 class = "title">About Validation</h2>
+		<img class="pics" alt="about validation image" src="images/aboutval">
+		<h2 class = "title">Validation Validation</h2>
+		<img class="pics" alt="validation validation image" src="images/valval">
+		<h2 class = "title">CSS Validation</h2>
+		<img class="pics" alt="CSS validation image" src="images/cssval">
+	
+	</div>
+	
+	
+	<!--#include virtual = "common/footer.html" -->
+	
+	</body>
+</html>

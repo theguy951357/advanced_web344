@@ -1,0 +1,51 @@
+<!--about.shtml-->
+<!DOCTYPE html>
+<html lang = "en-US">
+	
+	<head>
+	<title>csci 344 first</title>
+		<link rel="stylesheet"  href="css/main.css">
+		<link rel="stylesheet"  href="css/normalize.css">
+		<link rel="stylesheet"  href="css/900px.css">
+		<meta charset= "UTF-8">
+		
+	</head>
+	
+	<body class = "bg1">
+	
+	<!--#include virtual = "common/header.html" -->
+		
+	<h1 class = "title">About</h1>
+	<div class = "aboutbox">
+		<p>
+			
+			This is project 1 in my CSCI344 advanced web developement class. 
+			I did have previous experience in designing web pages in CSCI185, but with this project
+			brought new challenges. I like the advantage of using the server-side includes in the page
+			so I can reuse the same design without having to rewrite anything. I tried to include the head in the
+			in the html, but I could not get it to work. I am using a 3 section flex container in my index.html file.
+			I have used that before in CSCI185 and I like its uniform quality and I find it easy to work with.
+			Another challenge is using the validator to make sure my page is up to par. I put a form in the first container. 
+			That is an aspect of web design I have not worked with. The middle container is filled with
+			placeholder text from the Lorum Jeffsum website. It is like Lorum Ipsum, but filled with Jeff Goldblum quotes instead.
+			The third container contains some pictures of lego sets with led kits in them.
+			The header has a title and a picture that I got from a google search (free use of course).
+			The menu has links to the different pages of the project. Another Challenge is the Material design of the 
+			project. You have to make sure things line up nicely and your color pallet can be readable by someone with color blindness 
+			and other vision impairments. I use a custom scroll bar in this project, which I like. The design of the custom scrollbar
+			does restrict the border radius of the divs if you decide to make them scrollable. If it is too round, the top and bottom of the scroll
+			bar sticks out of the corners of the divs and looks weird.
+		</p>
+		<p>
+			Overall, I enjoy the review of the basics of html and css while being introduced to some new elements like server-side includes
+			and validating my page to give my designs a more standard look.
+		
+		</p>
+	
+	</div>
+	
+	
+	<!--#include virtual = "common/footer.html" -->
+	
+	</body>
+</html>

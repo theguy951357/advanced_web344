@@ -1,0 +1,105 @@
+<!--index.shtml-->
+<!DOCTYPE html>
+<html lang = "en-US">
+	
+	<head>
+	<title>csci 344 first</title>
+		
+		<link rel="stylesheet"  href="css/main.css">
+		<link rel="stylesheet"  href="css/normalize.css">
+		<link rel="stylesheet"  href="css/900px.css">
+		<meta charset= "UTF-8">
+		<meta name = "viewport" content="width=device-width">
+		
+	</head>
+	
+	<body class = "bg1">
+	
+	<!--#include virtual = "common/header.html" -->
+	<!-- flex container taken from previous projects that were taken from w3 schools -->	
+	<div class = "flex-container">
+	
+	<div class="container1">
+		<h2 class = "title">A FORM!!!</h2>
+		<div class = "box">
+			<p>Here's a form</p>
+			<form class = "firstform">
+				<table>
+					<tr>
+						<td>Name: </td>
+						<td><input type="text" name = "name" size = "7"></td>
+					</tr>
+					<tr>
+						<td>Age: </td>
+						<td><input type="text" name = "age" size = "7"></td>
+					</tr>
+					<tr>
+						<td>User Name: </td>
+						<td><input type="text" name = "username" size = "7"></td>
+					</tr><tr>
+						<td>Password: </td>
+						<td><input type="password" name = "password" size = "7"></td>
+					</tr>
+					
+					<tr>
+						
+						<td><input type="submit" name = "submit" size = "7"></td>
+						<td><input type="reset" name = "reset" size = "7"></td>
+					</tr>
+				
+				</table>
+			</form>
+
+
+		
+		</div>
+		
+	</div>
+	
+	<div class="container2">
+		<h2 class = "title">News Feed</h2>
+		<div class = "box">
+			<!-- placeholder text taken from jeffsum.com  its like lorum ipsum, but with jeff goldblum quotes instead.-->
+			<p>God help us, we're in the hands of engineers. Must go faster. My dad once told me, laugh and the world laughs with you, Cry, and I'll give you something to cry about you little bastard! You really think you can fly that thing? I was part of something special.</p>
+			<br><br>
+			<p>God help us, we're in the hands of engineers. Must go faster... go, go, go, go, go! Yes, Yes, without the oops! God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. You know what? It is beets. I've crashed into a beet truck.</p>
+			<br><br>
+			<p>We gotta burn the rain forest, dump toxic waste, pollute the air, and rip up the OZONE! 'Cause maybe if we screw up this planet enough, they won't want it anymore! Just my luck, no ice. Must go faster. So you two dig up, dig up dinosaurs? Just my luck, no ice.</p>
+			<br><br>
+			<p>Hey, take a look at the earthlings. Goodbye! Must go faster... go, go, go, go, go! God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
+			<br><br>
+			<p>This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. I was part of something special. They're using our own satellites against us. And the clock is ticking. God help us, we're in the hands of engineers. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.</p>
+			<br><br>
+			<p>Jaguar shark! So tell me - does it really exist? I was part of something special. Hey, take a look at the earthlings. Goodbye! So you two dig up, dig up dinosaurs? Jaguar shark! So tell me - does it really exist? Did he just throw my cat out of the window?</p>
+			<br><br>
+			<p>Hey, take a look at the earthlings. Goodbye! Must go faster... go, go, go, go, go! God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. Hey, you know how I'm, like, always trying to save the planet? Here's my chance.</p>
+			<br><br>
+			<p>This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. I was part of something special. They're using our own satellites against us. And the clock is ticking. God help us, we're in the hands of engineers. This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows.</p>
+			<br><br>
+			<p>Jaguar shark! So tell me - does it really exist? I was part of something special. Hey, take a look at the earthlings. Goodbye! So you two dig up, dig up dinosaurs? Jaguar shark! So tell me - does it really exist? Did he just throw my cat out of the window?</p>
+			<br><br>
+			
+		</div>
+		
+	</div>
+	<div class="container3">
+		<h2 class = "title">Legos with leds</h2>
+		<div class = "box">
+			<img class="pics" alt="stranger things lego set" src="images/legoled">
+			<img class = "pics" alt="stranger things lego set" src="images/legoled2">
+			<img class = "pics" alt="mandolorian lego set" src="images/thisistheway">
+
+
+
+		
+		</div>
+	
+	</div>
+	
+	</div>
+	
+	
+	<!--#include virtual = "common/footer.html" -->
+	
+	</body>
+</html>

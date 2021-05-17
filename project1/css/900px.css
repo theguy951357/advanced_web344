@@ -1,0 +1,55 @@
+/* scale down for smaller screenwidth */
+@media screen and (max-width: 900px){
+
+.flex-container{
+	
+	flex-direction: column;
+	margin-bottom: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.menutable{
+	
+	
+}
+
+.menutable tr{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.menutable td{
+	padding-left: 0px;
+	padding-right:0px;
+}
+ .footertable{
+ 	padding-left: 10%;
+ }
+.container1{
+	
+	width:100%;
+	max-width: 100%;
+}
+
+.container2{
+	width: 100%;
+	
+}
+
+.container3{
+	
+	width: 100%;
+	max-width: 100%;
+}
+
+
+
+.box{
+	margin-left: 46%;
+	width: 100%;
+	transform: translate(-45%,0);
+	
+}
+
+}
